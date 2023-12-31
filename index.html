@@ -1,76 +1,218 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Rosa Linda</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #f8f8f8;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #f8f8f8;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>🌹 Tienda Rosa Linda</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosa Linda</title>
+    <!-- external links -->
+    <link rel="icon" href="assets/images/logo.ico" />
+    <link rel="stylesheet" href="code/styles/normalize.css" />
+    <link rel="stylesheet" href="code/styles/icons.css" />
+    <link rel="stylesheet" href="code/styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__nav-left">
+          <img
+            src="assets/images/logo.ico"
+            alt="Rosa Linda"
+            class="header__logo"
+          />
+          <h1 class="header__name">Rosa Linda</h1>
+        </div>
+        <div class="header__nav-center"></div>
+        <div class="header__nav-right">
+          <button class="header__button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z"
+              />
+            </svg>
+          </button>
+          <button class="header__button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
+              />
+            </svg>
+          </button>
+          <button class="header__button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
     </header>
+    <main class="main">
+      <p class="p1">
+        Rosa Linda es una empresa líder en el diseño, fabricación y venta de
+        prendas de vestir exclusivas para mujeres y niñas. Nos especializamos en
+        ofrecer una amplia gama de opciones elegantes y de alta calidad, que van
+        desde blusas y vestidos hasta pantalones y conjuntos, con un enfoque
+        particular en la moda femenina. Comprometidos con la excelencia,
+        combinamos la artesanía meticulosa con las últimas tendencias para
+        ofrecer a nuestras clientes un estilo distintivo y atemporal.
+      </p>
 
-    <nav>
-        <a href="https://wa.me/message/3IS6QUUGB3EVO1">WhatsApp</a>
-    </nav>
+      <h2>Misión:</h2>
 
-    <main>
-        <p><p>Estimados y apreciados clientes, <br>
+      <p>
+        En Rosa Linda, nuestra misión es empoderar a mujeres y niñas a través de
+        la moda, proporcionando prendas de vestir que no solo reflejen su estilo
+        individual, sino que también les brinden confianza y comodidad. Nos
+        esforzamos por superar las expectativas de nuestros clientes, ofreciendo
+        productos de calidad excepcional y un servicio personalizado, impulsados
+        por la pasión por la moda y el compromiso con la satisfacción del
+        cliente.
+      </p>
 
-Queremos dedicar este mensaje a expresar nuestra profunda gratitud en nombre de Rosa Linda. Vuestra lealtad y preferencia han sido el cimiento de nuestro crecimiento y éxito, y queremos agradecer sinceramente por cada compra, por cada interacción y por formar parte esencial de nuestra comunidad.
+      <h2>Visión:</h2>
 
-Desde el corazón de nuestro equipo, queremos reconocer y valorar la confianza que depositan en nosotros. Cada producto que eligen de Rosa Linda es un voto de confianza, y nos llena de orgullo ser parte de sus vidas.
+      <p>
+        Aspiramos a ser reconocidos como la marca líder en moda femenina,
+        distinguida por su innovación, calidad y compromiso con la satisfacción
+        del cliente. Buscamos expandir nuestra presencia global, manteniendo al
+        mismo tiempo la autenticidad y la atención al detalle que nos
+        caracterizan. Rosa Linda se esfuerza por ser un referente en la
+        industria de la moda, marcando pautas y siendo un modelo de
+        sostenibilidad y responsabilidad social.
+      </p>
 
-Sabemos que tienen muchas opciones, y el hecho de que elijan nuestros productos nos impulsa a esforzarnos continuamente para ofrecer la mejor calidad y servicio posible. Nos comprometemos a seguir innovando y mejorando para satisfacer sus expectativas.
+      <h2>Productos:</h2>
 
-Agradecemos la oportunidad de ser parte de su día a día y de contribuir, de alguna manera, a su felicidad. Estamos emocionados por lo que el futuro nos depara y esperamos seguir siendo su elección preferida.
+      <p>
+        Rosa Linda se especializa en la fabricación de prendas de vestir para
+        mujeres y niñas. Para mujeres, ofrecemos una amplia variedad que incluye
+        blusas elegantes, vestidos sofisticados, pantalones de moda y conjuntos
+        coordinados que se adaptan a diversas ocasiones y estilos. Para niñas,
+        nos enfocamos en ofrecer blusas adorables que reflejen la frescura y la
+        inocencia de la infancia. Nuestros productos son cuidadosamente
+        diseñados y confeccionados para garantizar la máxima calidad y
+        durabilidad.
+      </p>
 
-Gracias nuevamente por confiar en Rosa Linda. ¡Su apoyo significa el mundo para nosotros!
+      <h2>Redes Sociales:</h2>
 
-<br><p>Con aprecio,
-Rosa Linda y el equipo</p>
+      <p>
+        Con el objetivo de mantener una conexión directa y cercana con nuestros
+        clientes, Rosa Linda está presente en diversas plataformas de redes
+        sociales. Puedes encontrarnos y seguirnos en Facebook e Instagram para
+        descubrir las últimas tendencias, colecciones exclusivas y participar en
+        emocionantes eventos y promociones. Además, ofrecemos un servicio
+        personalizado a través de WhatsApp, donde nuestro equipo de atención al
+        cliente está disponible para ayudarte en todo momento.
+      </p>
+
+      <h2>Compromiso Social y Ambiental:</h2>
+
+      <p>
+        En Rosa Linda, reconocemos la importancia de la responsabilidad social y
+        ambiental. Nos esforzamos por operar de manera sostenible, utilizando
+        prácticas éticas en toda nuestra cadena de suministro y promoviendo
+        condiciones laborales justas. Contribuimos activamente a iniciativas
+        comunitarias y causas benéficas, demostrando nuestro compromiso con el
+        bienestar social y ambiental.
+      </p>
     </main>
-
-    <footer>
-        <p>&copy; Rosa Linda 2023</p>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__lists">
+          <h6 class="footer__list-title">Colecciones</h6>
+          <ul class="footer__list-of-elements">
+            <li class="footer__list-item"><a href="">Blusas para dama</a></li>
+            <li class="footer__list-item"><a href="">Blusas para niña</a></li>
+            <li class="footer__list-item"><a href="">Pantalones</a></li>
+            <li class="footer__list-item"><a href="">Vestidos</a></li>
+            <li class="footer__list-item"><a href="">Conjuntos</a></li>
+          </ul>
+        </div>
+        <div class="footer__lists">
+          <h6 class="footer__list-title">Contacto</h6>
+          <ul class="footer__list-of-elements">
+            <li class="footer__list-item"><a href="">Facebook</a></li>
+            <li class="footer__list-item"><a href="">Messeger</a></li>
+            <li class="footer__list-item"><a href="">Instagram</a></li>
+            <li class="footer__list-item"><a href="">WhatsApp</a></li>
+            <li class="footer__list-item"><a href="">Correo</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h6 class="footer__list-title">Boletin informativo</h6>
+          <p class="footer__newsletter-info">
+            Suscríbete para recibir las últimas noticias, actualizaciones e
+            información.
+          </p>
+          <form action="" class="footer__newsletter-form">
+            <input type="text" class="footer__input" />
+            <button type="submit" class="footer__button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__name">Rosa Linda &copy; 2024</p>
+      </div>
     </footer>
-
-</body>
+    <a href="https://web.whatsapp.com/send/?phone=573203826025&text&type=phone_number&app_absent=0" class="floating-button">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 48 48"
+        width="48px"
+        height="48px"
+        clip-rule="evenodd"
+      >
+        <path
+          fill="#fff"
+          d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
+        />
+        <path
+          fill="#fff"
+          d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"
+        />
+        <path
+          fill="#cfd8dc"
+          d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"
+        />
+        <path
+          fill="#40c351"
+          d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"
+        />
+        <path
+          fill="#fff"
+          fill-rule="evenodd"
+          d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </a>
+  </body>
 </html>

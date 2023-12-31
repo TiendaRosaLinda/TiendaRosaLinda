@@ -1,0 +1,28 @@
+/* general */
+
+.header svg {
+  width: auto;
+  height: auto;
+  fill: #000;
+}
+
+.footer svg {
+  width: auto;
+  height: auto;
+  fill: #000;
+}
+
+/* individual */
+
+.mi-clase-svg {
+  fill: #000;
+  stroke: #000;
+  width: auto;
+  height: auto;
+  stroke-width: 2;
+  stroke-dasharray: 5 2;
+  stroke-dashoffset: 10;
+  opacity: 0.5;
+  transform: rotate(45deg) scale(1.5);
+  filter: blur(5px) saturate(200%);
+}
