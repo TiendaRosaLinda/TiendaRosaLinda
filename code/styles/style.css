@@ -42,6 +42,10 @@ ul {
   padding: 5px;
 }
 
+.header__name {
+    font-family: "Great Vibes", sans-serif;
+}
+
 .header__button {
   background: none;
   border: none;
