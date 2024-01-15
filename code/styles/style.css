@@ -106,6 +106,10 @@ ul {
   font-size: 16px;
 }
 
+.footer__name {
+  padding: 5px 0;
+}
+
 .footer__newsletter-form {
   display: flex;
   align-items: center;
