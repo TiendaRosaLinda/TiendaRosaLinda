@@ -1,5 +1,9 @@
 /* header */
 
+.header {
+  height: 50px;
+}
+
 .header__nav {
   display: flex;
   justify-content: space-between;
