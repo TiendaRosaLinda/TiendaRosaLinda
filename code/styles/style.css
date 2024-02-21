@@ -83,33 +83,6 @@ body {
     font-family: "Great Vibes", cursive;
 }
 
-.header__nav-right {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 50%;
-    height: 30px;
-}
-
-.header__button {
-    width: 30px;
-    height: 30px;
-    border: none;
-    background: none;
-    border-radius: 50px;
-}
-
-.header__button--access {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-}
-
-.header__button:hover {
-    background-color: #f0f0f0;
-}
-
 /* main */
 
 
